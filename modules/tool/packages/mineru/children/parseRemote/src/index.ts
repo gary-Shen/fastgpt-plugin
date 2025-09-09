@@ -246,7 +246,8 @@ async function extractResult(batchId: string, props: InnerPropsType): Promise<Ex
 function buildHeaders(token: string) {
   return {
     Authorization: `Bearer ${token}`,
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/json',
+    source: 'fastgpt'
   };
 }
 

@@ -7,6 +7,7 @@ export default defineToolSet({
     en: 'MinerU'
   },
   type: ToolTypeEnum.tools,
+  courseUrl: 'https://mineru.net/',
   description: {
     'zh-CN':
       'MinerU是一款可以在本地部署的将FILES转化为机器可读格式的工具（如markdown、json），可以很方便地抽取为任意格式。',

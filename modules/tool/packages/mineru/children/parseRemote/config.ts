@@ -59,7 +59,7 @@ export default defineTool({
         {
           key: 'language',
           label: '文档语言',
-          renderTypeList: [FlowNodeInputTypeEnum.select],
+          renderTypeList: [FlowNodeInputTypeEnum.select, FlowNodeInputTypeEnum.reference],
           list: [
             { label: 'ch', value: 'ch' },
             { label: 'en', value: 'en' },
